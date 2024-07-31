@@ -26,13 +26,3 @@ Also, LRC files use minutes, seconds, and milliseconds only. Unlike SRT files th
 
 
 SRT files must be in the following format (and only has one line of subtitles/lyrics.):
-
-1
-
-00:00:01,918 --> 00:00:03,378
-
-Hello, How are you?
-
-LRC files must be in the following format:
-
-[00:01.91]Hello, How are you?
