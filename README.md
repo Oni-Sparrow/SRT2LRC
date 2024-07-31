@@ -16,6 +16,7 @@ Therefore, all the timings will be the off by 0.001 to 0.005 seconds.
 This timing inaccurance should not be significant nor cause problems in captions/subtitles.
 
 
+
 `Converter.lrc_to_srt(lrc_file_path, srt_file_path)`
 
 This function converts lrc files to srt.
@@ -27,9 +28,13 @@ Also, LRC files use minutes, seconds, and milliseconds only. Unlike SRT files th
 
 
 srt files must be in the following format (and only has one line of subtitles/lyrics.):
+
 1
+
 00:00:01,918 --> 00:00:03,378
+
 Hello, How are you?
 
 lrc files must be in the following format:
+
 [00:01.91]Hello, How are you?
