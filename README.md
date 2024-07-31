@@ -4,7 +4,8 @@ How to import:
 from SRT2LRC import Converter
 
 
-Available Functions: \n
+Available Functions:
+
 `Converter.srt_to_lrc(srt_file_path, lrc_file_path)`
 
 This function converts srt files to lrc.
