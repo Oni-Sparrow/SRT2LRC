@@ -1,5 +1,7 @@
 This library is used to convert SRT files to LRC files and vice versa.
 
+Installation: pip install SRT2LRC
+
 How to import:
 from SRT2LRC import Converter
 
