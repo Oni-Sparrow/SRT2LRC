@@ -28,4 +28,4 @@ This timing inaccurance should not be significant nor cause problems in captions
 Also, LRC files use minutes, seconds, and milliseconds only. Unlike SRT files that use hours, minutes, seconds, and milliseconds.
 
 
-SRT files must be in the following format (and only has one line of subtitles/lyrics.):
+Note: Both of the functions return True/False.
