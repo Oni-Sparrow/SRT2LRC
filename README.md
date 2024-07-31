@@ -3,7 +3,7 @@ This library is used to convert SRT files to LRC files and vice versa.
 How to import:
 from SRT2LRC import Converter
 
---------------------------
+
 Available Functions:
 `Converter.srt_to_lrc(srt_file_path, lrc_file_path)`
 
@@ -23,7 +23,8 @@ LRC files use 2 digits for milliseconds while SRT files use 3 digits.
 Therefore, all the timings will be the off by 0.001 to 0.009 seconds.
 This timing inaccurance should not be significant nor cause problems in captions/subtitles.
 Also, LRC files use minutes, seconds, and milliseconds only. Unlike SRT files that use hours, minutes, seconds, and milliseconds.
---------------------------
+
+
 srt files must be in the following format (and only has one line of subtitles/lyrics.):
 1
 00:00:01,918 --> 00:00:03,378
