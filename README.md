@@ -1,7 +1,7 @@
 This library is used to convert SRT files to LRC files and vice versa.
 
 Installation: 
-`pip install SubLyric`
+`pip install sublyric`
 
 How to import:
 `from SubLyric import Converter`
